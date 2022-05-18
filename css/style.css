@@ -1,0 +1,110 @@
+/* start of nav bar */
+.navbar {
+
+  font-family: 'Scheherazade New', serif;
+  font-size: 21px;
+
+}
+
+.nav-bar {
+  height: 70px;
+  width: 100%;
+  color: white;
+  /*  position: sticky; */
+  top: 0;
+  left: 0;
+
+}
+
+.nav {
+  float: right;
+  color: white;
+
+}
+
+/* slide text */
+.text1 {
+  font-family: 'Scheherazade New', serif;
+  font-size: 90px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 750px) {
+  .text1 {
+    font-size: 50px;
+
+  }
+
+}
+
+/* contact page header */
+.contact {
+  background-color: #e0fbfc ;
+  font-family: 'Scheherazade New', serif;
+  font-size: 22px;
+
+}
+
+.pagename {
+  text-align: center;
+  color: white;
+
+}
+
+/* form & map */
+.row {
+  padding-top: 25px;
+  color: grey;
+  background-color: rgb(255, 251, 251);
+}
+
+.map-container-7 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-7 iframe {
+  left: 0;
+  top: 1000px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* about title */
+.title0 h1 {
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+  font-family: 'Scheherazade New', serif;
+
+}
+
+/* subtitles */
+.media h3 {
+  padding-left: 125px;
+  padding-bottom: 15px;
+  font-family: 'Scheherazade New', serif;
+}
+
+
+/* about text */
+.media p {
+  margin-left: 70px;
+  margin-right: 90px;
+  font-family: 'Scheherazade New', serif;
+  font-size: 21px;
+}
+
+
+/* footer */
+footer {
+  font-family: 'Scheherazade New', serif;
+  font-size: 21px;
+}
+
